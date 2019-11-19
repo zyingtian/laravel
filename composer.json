@@ -39,6 +39,12 @@
         "classmap": [
             "database/seeds",
             "database/factories"
+<<<<<<< Updated upstream
+=======
+        ],
+        "files":[
+            "app/Http/Libs/helpers.php"
+>>>>>>> Stashed changes
         ]
     },
     "autoload-dev": {
