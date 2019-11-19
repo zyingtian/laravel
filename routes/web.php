@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
+    $a = custom_log('test_dir','success','new：'.date('Y-m-d H:i:s'),['time'=>date('Y-m-d H:i:s'),'file'=>__FILE__,'line'=>__LINE__]);
+    dd(app_path(),config_path(),storage_path(),$a);
     return view('welcome');
 });
