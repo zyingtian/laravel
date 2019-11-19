@@ -41,11 +41,7 @@
             "database/factories"
         ],
         "files":[
-<<<<<<< HEAD
             "app/Http/Libs/helpers.php"
-=======
-            "app/helpers.php"
->>>>>>> testv1
         ]
     },
     "autoload-dev": {
